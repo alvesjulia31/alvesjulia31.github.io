@@ -14,12 +14,7 @@ const Contact = () => {
     <main className="page-contact">
       <section className="page-hero reveal-up">
         <div className="container">
-          <p className="eyebrow">Contacto</p>
           <h1 className="page-title">Contact me</h1>
-          <p className="page-lead">
-            Redes sociais abaixo. O formulário envia para <strong>juliaalves3107@gmail.com</strong> via
-            FormSubmit (na primeira utilização podes receber um email de confirmação da plataforma).
-          </p>
         </div>
       </section>
 

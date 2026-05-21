@@ -17,7 +17,6 @@ const About = () => {
         <div className="container about-hero__inner">
           <div className="about-copy reveal-up">
             <p className="eyebrow">About me</p>
-            <h1 className="page-title">Julia Alves</h1>
             <p className="page-lead about-copy__text">
                 Hi! I’m Julia Alves, a Brazilian creative based in Portugal for the past 8 years. I’m currently studying Audiovisual Design, while exploring my passion for visual storytelling through photography, video and digital content.
 

@@ -30,8 +30,7 @@ const Home = () => {
         <div className="home-hero__noise" aria-hidden />
         <div className="container home-hero__grid">
           <div className="home-hero__intro reveal-up">
-            <p className="eyebrow">Portfolio</p>
-            <h1>JULIA ALVES</h1>
+            <p className="eyebrow" >Portfolio</p>
             <p className="home-lead">
                 Hello! I'm Julia Alves, currently pursuing a Bachelor's degree in Audiovisual. This webpage serves as a vibrant tapestry of my creative journey, where I showcase my passion for visual storytelling, innovative projects, and a diverse skillset.
             </p>

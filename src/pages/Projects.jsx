@@ -36,7 +36,7 @@ const Projects = () => {
               </div>
               <div className="project-hero-card__meta">
                 <h2>Bagoeira</h2>
-                <span className="project-hero-card__cta">Ver fotos →</span>
+                <span className="project-hero-card__cta">See more →</span>
               </div>
             </Link>
 
@@ -51,7 +51,7 @@ const Projects = () => {
               </div>
               <div className="project-hero-card__meta">
                 <h2>Ordinário</h2>
-                <span className="project-hero-card__cta">Ver fotos →</span>
+                <span className="project-hero-card__cta">See more →</span>
               </div>
             </Link>
           </div>

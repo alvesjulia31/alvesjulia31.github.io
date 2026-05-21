@@ -6,7 +6,8 @@ const PROJECTS = {
   bagoeira: {
     title: 'Bagoeira',
     description:
-      'A visual project developed for Bagoeira, a restaurant with a strong historical presence in Barcelos. The project explored both the space and the people who bring it to life, capturing moments of daily work, atmosphere and identity. Through a mix of portraits and environmental photography, the goal was to visually communicate the restaurant’s character and long-standing heritage.'    images: bagoeiraImages,
+      'A visual project developed for Bagoeira, a restaurant with a strong historical presence in Barcelos. The project explored both the space and the people who bring it to life, capturing moments of daily work, atmosphere and identity. Through a mix of portraits and environmental photography, the goal was to visually communicate the restaurant’s character and long-standing heritage.',
+      images: bagoeiraImages,
   },
   ordinario: {
     title: 'Ordinário',

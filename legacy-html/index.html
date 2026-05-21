@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>André Machado | Fotografia & Vídeo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <a href="index.html" class="logo">AM.</a>
+        <div class="nav-links">
+            <a href="#portfolio">Portfólio</a>
+            <a href="#projects">projects</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#contacto">Contacto</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1 class="fade-up">Captando a <i>essência</i><br>do momento.</h1>
+            <p class="fade-up delay-1">Fotografia e videografia com uma perspetiva cinematográfica e fluida.</p>
+            <a href="#portfolio" class="btn fade-up delay-2">Ver o meu trabalho</a>
+        </div>
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator fade-up delay-3">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Fazer scroll</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2 class="section-title reveal">Últimos Trabalhos</h2>
+                
+                <div class="filters reveal">
+                    <button class="filter-btn active" data-filter="all">Todos</button>
+                    <button class="filter-btn" data-filter="photo">Fotografia</button>
+                    <button class="filter-btn" data-filter="video">Vídeo</button>
+                </div>
+
+                <div class="masonry-grid">
+                    <div class="masonry-item photo reveal">
+                        <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fotografia 1">
+                        <div class="overlay">
+                            <h3>Retrato Urbano</h3>
+                            <p>Lisboa</p>
+                        </div>
+                    </div>
+                    <div class="masonry-item video reveal">
+                        <!-- Simulate video thumbnail with play icon -->
+                        <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Video 1">
+                        <div class="play-icon">▶</div>
+                        <div class="overlay">
+                            <h3>Cinematic Vlog</h3>
+                            <p>Açores</p>
+                        </div>
+                    </div>
+                    <div class="masonry-item photo reveal">
+                        <img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fotografia 2">
+                        <div class="overlay">
+                            <h3>Casamento ao Pôr do Sol</h3>
+                            <p>Sintra</p>
+                        </div>
+                    </div>
+                    <div class="masonry-item photo reveal">
+                        <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fotografia 3">
+                        <div class="overlay">
+                            <h3>Moda Editorial</h3>
+                            <p>Home</p>
+                        </div>
+                    </div>
+                    <div class="masonry-item video reveal">
+                        <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Video 2">
+                        <div class="play-icon">▶</div>
+                        <div class="overlay">
+                            <h3>Documentário Curto</h3>
+                            <p>Artesãos</p>
+                        </div>
+                    </div>
+                    <div class="masonry-item photo reveal">
+                        <img src="https://images.unsplash.com/photo-1551316679-9c6ae9dec224?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fotografia 4">
+                        <div class="overlay">
+                            <h3>Produto Minimalista</h3>
+                            <p>Comercial</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section dark-section">
+            <div class="container">
+                <h2 class="section-title reveal">Coleções de projects</h2>
+                <div class="projects-grid">
+                    <a href="projects/nature/index.html" class="project-card reveal delay-1">
+                        <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Natureza">
+                        <div class="project-info">
+                            <h3>Natureza</h3>
+                            <span class="view-project">Explorar ➔</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="section">
+            <div class="container about-container">
+                <div class="about-text reveal">
+                    <h2 class="section-title">A Minha Visão</h2>
+                    <p>Acredito que cada imagem deve contar uma história e cada vídeo deve evocar uma emoção profunda. Com mais de X anos de experiência a explorar a luz, o movimento e a composição, o meu foco é criar peças visuais que fiquem para sempre.</p>
+                    <p>Combinando técnicas clássicas de fotografia com visões modernas de videografia, trabalho de perto com os meus clientes para transformar ideias abstratas em realidades cinematográficas.</p>
+                </div>
+                <div class="about-image reveal delay-1">
+                    <img src="https://images.unsplash.com/photo-1554046920-90dc5225bb1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="O Fotógrafo">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="container footer-container">
+            <div class="footer-info reveal">
+                <h2>Vamos criar algo incrível.</h2>
+                <a href="mailto:hello@andremachado.com" class="email-link">hello@andremachado.com</a>
+                <div class="social-links">
+                    <a href="#">Instagram</a>
+                    <a href="#">Vimeo</a>
+                    <a href="#">Behance</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 André Machado. Todos os direitos reservados.</p>
+                <p>Criado com fluidez.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox for viewing images/videos -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="">
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

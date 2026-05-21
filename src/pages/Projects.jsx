@@ -17,7 +17,7 @@ const Projects = () => {
           <p className="eyebrow">Portfolio</p>
           <h1 className="page-title">projects</h1>
           <p className="page-lead">
-            Dois corpos de trabalho — clica para ver a galeria completa.
+            Press to view more...
           </p>
         </div>
       </section>

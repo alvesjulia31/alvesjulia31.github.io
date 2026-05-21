@@ -6,12 +6,11 @@ const PROJECTS = {
   bagoeira: {
     title: 'Bagoeira',
     description:
-      'Série em Bagoeira — paisagem, luz e silêncio. (Se não vês fotos, exporta JPG ou PNG para `assets/images/Bagoeira`; ficheiros .dng não abrem no browser.)',
-    images: bagoeiraImages,
+      'A visual project developed for Bagoeira, a restaurant with a strong historical presence in Barcelos. The project explored both the space and the people who bring it to life, capturing moments of daily work, atmosphere and identity. Through a mix of portraits and environmental photography, the goal was to visually communicate the restaurant’s character and long-standing heritage.'    images: bagoeiraImages,
   },
   ordinario: {
     title: 'Ordinário',
-    description: 'Coleção Ordinário — imagens em formato NFT / série editorial.',
+    description: 'Ordinário is a photography project created in Apúlia, exploring the ordinary aspects of everyday life. Centered around people, gestures and daily routines, the project seeks to document authentic moments and reflect on the unnoticed beauty embedded in common human experiences.',
     images: ordinarioImages,
   },
 };
